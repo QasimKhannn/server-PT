@@ -11,8 +11,8 @@ const loginRoutes = require("./routes/login.routes");
 
 
 const corsOptions = {
-    origin: "http://localhost:3000",
-};
+  origin: ["http://localhost:3000", "https://pie-technologies.com/"],
+ };
 
 app.use(cors(corsOptions));
 app.use(express.json());

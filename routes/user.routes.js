@@ -3,6 +3,8 @@ const router = express.Router()
 
 const userContoller = require('../controllers/user.controller');
 
+//for Test
+// router.get('/test', userContoller.test);
 //for adminpanel getALL
 router.get('/getAllUsers', userContoller.getAllUsers);
 //for login
